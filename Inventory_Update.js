@@ -2,7 +2,6 @@ function updateInventory(arr1, arr2) {
 
   var i, j, x, y, c;
   
-  
   for (i=0; i<arr1.length; i++){
     
     for (j=0; j<arr2.length; j++){
@@ -12,7 +11,6 @@ function updateInventory(arr1, arr2) {
         arr1[i][0] = arr1[i][0] + arr2[j][0]; 
         
        arr2.splice(j,1);
- 
       }
     }
   }
